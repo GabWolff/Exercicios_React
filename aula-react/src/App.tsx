@@ -1,12 +1,12 @@
-import Titulo from "./components/Titulo";
+import "./App.css";
 
 export default function App() {
-  return(
+  return (
     <div>
-        <Titulo corDeFundo="green" corDeTexto="blue">Sou um titulo de teste</Titulo>
-        <Titulo corDeFundo="purple" corDeTexto="yellow">Outro titulo</Titulo>
-        <Titulo corDeFundo="orange" corDeTexto="black">Mais um titulo</Titulo>
-        <Titulo corDeFundo="pink" corDeTexto="red">Ultimo titulo</Titulo>
+        <header className="cabecalho">header</header>
+        <aside className="conteudo">Aside</aside>
+        <main className="home">Main</main>
+        <footer className="rodape">Footer</footer>
     </div>
-    );
+  );
 }
