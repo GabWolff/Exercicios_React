@@ -1,4 +1,10 @@
-export default function Titulo(props){
+type TituloProps = {
+    children: string;
+    corDeTexto: string;
+    corDeFundo: string;
+};
+
+export default function Titulo(props : TituloProps) {
     const estilo = {
         color: props.corDeTexto,
         backgroundColor: props.corDeFundo,
